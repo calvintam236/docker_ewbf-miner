@@ -9,7 +9,7 @@ EWBF-Miner supports Zcash (ZEC).
 Run in background:
 
 ```console
-$ docker run -d --device /dev/nvidia0:/dev/nvidia0 --device /dev/nvidiactl:/dev/nvidiactl --device /dev/nvidia-uvm:/dev/nvidia-uvm --device /dev/nvidia-modeset:/dev/nvidia-modeset --name YOUR_CONTAINER_NAME calvintam236/ewbf-miner:nvidia --server YOUR_POOL_ADDRESS --user YOUR_USERNAME.YOUR_WORKER_NAME --pass YOUR_WORKER_PASSWORD
+$ docker run -d --device /dev/nvidia0:/dev/nvidia0 --device /dev/nvidiactl:/dev/nvidiactl --device /dev/nvidia-uvm:/dev/nvidia-uvm --device /dev/nvidia-modeset:/dev/nvidia-modeset --name YOUR_CONTAINER_NAME calvintam236/ewbf-miner:nvidia --server YOUR_POOL_ADDRESS --port YOUR_POOL_PORT --user YOUR_USERNAME.YOUR_WORKER_NAME --pass YOUR_WORKER_PASSWORD
 ```
 
 Get `ewbf-miner` options with:
